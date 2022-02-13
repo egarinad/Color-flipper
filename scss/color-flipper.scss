@@ -52,6 +52,9 @@ body {
             transition: 0.5s;
             background-color: #fff;
         }
+        &.active {
+            background-color: #fff;
+        }
     }
 }
 
@@ -83,7 +86,6 @@ body {
         border: 1px solid #000;
         border-radius: 8px;
         margin-top: 30px;
-        //padding: 15px 20px;
         padding: 1.5vh 2vw;
         background-color: rgb(175, 252, 239);
         font-size: 20px;
@@ -132,6 +134,9 @@ body {
             text-align: center;
             border-top: 1px solid #000;
             justify-content: center;
+            &.active {
+                background-color: #fff;
+            }
         }
     }
 

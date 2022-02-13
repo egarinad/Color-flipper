@@ -172,6 +172,10 @@ body {
   background-color: #fff;
 }
 
+.item__link.active {
+  background-color: #fff;
+}
+
 .content {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
@@ -276,6 +280,9 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .header__menu.active {
+    background-color: #fff;
   }
   .header-container {
     display: -webkit-box;

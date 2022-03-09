@@ -4,7 +4,6 @@ const colors = ["green", "red", "blue", "rgba(133,122,200)", "#f15025"];
 const button = document.querySelector('.bg__button');
 const col = document.querySelector('.bg__name');
 
-
 button.addEventListener('click', () => {
     const randnum = getNum();
     document.body.style.backgroundColor = colors[randnum];
